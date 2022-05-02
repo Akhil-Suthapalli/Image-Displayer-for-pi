@@ -38,7 +38,7 @@ def loop():
     global label,img
     i=1
     while(running):
-        time.sleep(1)
+        time.sleep(5)
         try:
             label.configure(image = img[i])
         except:
