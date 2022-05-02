@@ -1,0 +1,10 @@
+
+
+Raspberry pi
+
+1. you have to install pillow(upgrade) to work with imageTk
+2. Add the file to startup program by following these steps
+   https://www.raspberrypi-spy.co.uk/2015/02/how-to-autorun-a-python-script-on-raspberry-pi-boot/
+
+	A. Go to "sudo nano /etc/profile"
+	B. Scroll to bottom and add this line "sudo python /home/pi/akhil/ImageDisplayer.py"
