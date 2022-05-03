@@ -12,11 +12,13 @@ from PIL import Image, ImageTk
 
 
 root = tk.Tk()
-os.chdir("E:\\HUD\\MockImages")
+#os.chdir("E:\\HUD\\MockImages")
+os.chdir("/home/pi/akhil")
+
 running = True
 width = 0
 height = 0
-rotate = 0
+rotate = 180
 img = []
 
 load_image_temp = Image.open("A1.png")
